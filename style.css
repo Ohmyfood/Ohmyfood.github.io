@@ -1,0 +1,274 @@
+/* police d'écriture */
+
+@font-face {
+    font-family: "segoe print";
+    src: url("font/segoe-print/segoe-print.woff") format("woff"),
+         url("font/segoe-print/segoe-print.ttf") format("ttf"),
+         url("font/segoe-print/segoe-print.otf") format("otf");
+}
+
+@font-face {
+    font-family: "devonshire";
+    src: url("font/devonshire/devonshire.ttf") format("ttf"),
+         url("font/devonshire/devonshire.woff") format("woff");
+}
+
+@font-face {
+    font-family: "kaushan script";
+    src: url("font/kaushan-script/kaushan-script.ttf") format("ttf"),
+         url("font/kaushan-script/kaushan-script.woff") format("woff");
+}
+
+@font-face {
+    font-family: "dancing script";
+    src: url(font/dancing-script/dancing-script.ttf) format("ttf"),
+         url(font/dancing-script/dancing-script.woff) format("woff");
+}
+
+@font-face {
+    font-family: "croissant one";
+    src: url(font/croissant-one/croissant-one.ttf) format("ttf"),
+         url(font/croissant-one/croissant-one.woff) format("woff")
+}
+
+/* --- */
+body {
+    margin: auto;
+}
+/* header */
+header {
+    background-color: #579c87;
+    text-align: center;
+}
+.img-logo {
+    width: 280px;
+    padding: 2%;
+}
+/* section menu */
+.section-menus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.menu {
+    text-decoration: none;
+    display: inline-flex;
+    width: 360px;
+    height: 509px;
+    margin: 20px;
+    box-shadow: 0px 0px 17px #e0e0e0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 250ms ease-in-out;
+    
+}
+
+.menu p {
+    margin: 20px;
+}
+
+.menu p:nth-child(1) {
+    font-size: 1.8em;
+}
+
+.menu p:nth-child(2) {
+    font-size: 3em;
+}
+
+.menu:visited {
+    color: black;
+}
+
+/* menu left-up */
+
+.menu_left-up {
+    background-color: #fcdfdb;
+}
+
+
+.menu_left-up p {
+    color: #3d1319;
+}
+
+.menu_left-up p:nth-child(1) {
+    font-family: "devonshire";
+    font-size: 2.5em;
+    order: 2;
+}
+
+.menu_left-up p:nth-child(2) {
+    font-family: "Segoe Print";
+    font-weight: 600;
+    margin: 0;
+    margin-top: -10px;
+    order: 3;
+}
+
+.menu_left-up p:nth-child(3) {
+    order: 1;
+    margin-bottom: -30px;
+}
+
+.icone_homepage {
+    font-size: 3.5em;
+}
+
+i {
+    display: block;
+    background: linear-gradient(to right, #ef4760, #f6926a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* menu right-up */
+
+.menu_right-up {
+    background-color: #fff5fe;
+}
+
+.menu_right-up p:nth-child(1) {
+    font-family: "croissant one";
+    font-size: 1.6em;
+    display: block;
+    background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_right-up p:nth-child(2) {
+    font-weight: 600;
+    color: #c77312;
+}
+
+/* menu left-down */
+
+.menu_left-down {
+    background-color: #f9f9f9;
+}
+
+.menu_left-down p:nth-child(1) {
+    font-family: "dancing script";
+    display: block;
+    background: linear-gradient(167deg, #0020d8, #0889fb 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_left-down p:nth-child(2) {
+    font-family: "Segoe Print";
+    font-weight: ;
+    color: #0886fb;
+}
+
+/* menu right-down */
+
+.menu_right-down {
+    background-color: #fdfffd;
+}
+
+.menu_right-down p:nth-child(1) {
+    font-family: "kaushan script";
+    display: block;
+    background: linear-gradient(150deg, #3d923a, #bfff7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_right-down p:nth-child(2) {
+    color: #72bf56;
+    font-family: "Segoe Print"
+}
+
+/* animation menu */
+.menu:hover {
+    transform: perspective(150px) translateZ(45px);
+    opacity: 0.8;
+}
+/* section prochainement */
+.prochainement {
+    text-align: center;
+    margin-bottom: 100px;
+} 
+.prochainement-font {
+    display: inline;
+    background-color: #579c87;
+    color: #fdcb46;
+    font-size: 25px;
+    font-family: Arial;
+    padding: 8px 5% 12px 5%;
+    border-radius: 10px;
+}
+/* animation prochainement */
+.prochainement span {
+    visibility: hidden;
+    animation: dot steps(1);
+    animation-iteration-count: infinite;
+}
+@keyframes dot {
+    50% {
+        visibility: visible
+    }
+}
+.prochainement-font .dot-anime-0 {
+    animation-delay: 400ms;
+    animation-duration: 1.4s;
+}
+.prochainement-font .dot-anime-1 {
+    animation-delay: 500ms;
+    animation-duration: 1.4s;
+}
+.prochainement-font .dot-anime-2 {
+    animation-delay: 600ms;
+    animation-duration: 1.4s;
+}
+/* footer */
+footer {
+    background-color: #579c87;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 15px 0;
+}
+.font-footer {
+    color: #fdcb46;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+/* animation footer*/
+@keyframes wriggle {
+    45% {
+        transform: translateX(-5px)
+    }
+    100% {
+        transform: translateX(5px)
+    }
+}
+.font-footer:hover {
+    animation: wriggle 170ms;
+    animation-iteration-count: infinite;
+}
+
+/* page secondaire */
+
+/* Titre menu */
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial;
+    margin-top: 50px;
+}
+
+/* la note enchantée */
+

@@ -1,0 +1,148 @@
+/* général */
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: #edefef;
+    padding: 30px;
+    box-shadow: 0px 0px 17px #e0e0e0;
+    margin-bottom: 120px;
+    padding-right: 100px;
+    padding-left: 45px;
+    padding-bottom: 120px;
+    font-family: "Segoe Print"
+}
+
+div h3:nth-child(2) {
+    margin-top: -10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.8em;
+    font-family: "dancing script";
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    display: block;
+    background: linear-gradient(167deg, #0020d8, #0889fb 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-size: 16.5px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    margin-left: -2%;
+    margin-right: -12%;
+    overflow: hidden;
+    position: relative;
+}
+
+.line-left {
+    width: 180px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    transform-origin: left;
+    transform: scaleX(1.2)
+}
+
+.line-right {
+    width: 180px;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    transform-origin: right;
+    transform: scaleX(1.2)
+}
+
+/* color-font */
+
+.color-entre {
+    color: #c67512
+}
+
+.color-principale {
+    color: #a56799;
+}
+
+.color-dessert {
+    color: #6e4ccc;
+}
+
+/* animation titre */
+
+h3 p {
+    margin-top: -14px;
+}
+.entre p {
+    margin-left: -179px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.883%;
+}
+
+.entre:hover p{
+    transform: scaleX(96);
+}
+
+.plat-principale p {
+    margin-left: -161.5px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.879%;
+}
+
+.plat-principale:hover p{
+    transform: scaleX(87);
+}
+
+.dessert p {
+    margin-left: -23.2%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.88%;
+}
+
+.dessert:hover p{
+    transform: scaleX(84);
+}
+
+/* --- */
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+li p {
+    line-height: 5px;
+}
+
+li p:nth-child(2) {
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}

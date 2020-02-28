@@ -1,0 +1,142 @@
+/* général */
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: #fff5fe;
+    padding: 30px;
+    box-shadow: 0px 0px 17px #e0e0e0;
+    margin-bottom: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px
+}
+
+div h3:nth-child(2) {
+    margin-top: -10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: "croissant one";
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+    display: block;
+    background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    margin-left: -2%;
+    margin-right: -12%;
+    overflow: hidden;
+    position: relative;
+}
+
+.line-left {
+    width: 180px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    transform-origin: left;
+    transform: scaleX(1.2)
+}
+
+.line-right {
+    width: 180px;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    transform-origin: right;
+    transform: scaleX(1.2)
+}
+
+/* color-font */
+
+.color-entre {
+    color: #c67512
+}
+
+.color-principale {
+    color: #a56799;
+}
+
+.color-dessert {
+    color: #6e4ccc;
+}
+
+/* animation titre */
+
+h3 p {
+    margin-top: -14px;
+}
+.entre p {
+    margin-left: -195.09px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.82%;
+}
+
+.entre:hover p{
+    transform: scaleX(66.5);
+}
+
+.plat-principale p {
+    margin-left: -22.5%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.809%;
+}
+
+.plat-principale:hover p{
+    transform: scaleX(49);
+}
+
+.dessert p {
+    margin-left: -27%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -24px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 49.809%;
+}
+
+.dessert:hover p{
+    transform: scaleX(58.5);
+}
+
+/* --- */
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+li p {
+    line-height: 5px;
+}
+
+li p:nth-child(2) {
+    margin-left: 50px;
+}

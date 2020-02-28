@@ -1,0 +1,123 @@
+/* général */
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: #fcdfdb;
+    padding: 30px;
+    font-family: "Segoe Print";
+    color: #3d1319;
+    box-shadow: 0px 0px 17px #e0e0e0;
+    margin-bottom: 120px;
+    padding-right: 80px
+}
+
+div h3:nth-child(2) {
+    margin-top: -10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "devonshire";
+    font-weight: 500;
+    margin-top: 15px
+}
+
+h2 i {
+    font-size: 1.6em;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -35px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.line-left {
+    width: 180px;
+    position: absolute;
+    left: 6.8%;
+    transform-origin: left;
+    transform: scaleX(0.95)
+}
+
+.line-right {
+    width: 180px;
+    position: absolute;
+    right: -0.9%;
+    transform-origin: right;
+    transform: scaleX(1.18)
+}
+
+/* animation titre */
+
+.entre p {
+    margin-top: -25px;
+    margin-left: -67px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 326.5px;
+}
+
+.entre:hover p{
+    transform: scaleX(27);
+}
+
+.plat-principale p {
+    margin-top: -25px;
+    margin-left: -123px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 354.4px;
+}
+
+.plat-principale:hover p{
+    transform: scaleX(46);
+}
+
+.dessert p {
+    margin-top: -25px;
+    margin-left: -155px;
+    transition: transform 300ms;
+    transform: scaleX(0);
+    transform-origin: 370.46px;
+}
+
+.dessert:hover p{
+    transform: scaleX(60);
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+li p {
+    line-height: 5px;
+}
+
+li p:nth-child(2) {
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.pied_menu {
+    text-align: center;
+    font-size: 2em;
+    font-family: "devonshire";
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+p i {
+    font-size: 1.2em;
+}
