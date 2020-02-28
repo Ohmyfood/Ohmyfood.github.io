@@ -200,7 +200,8 @@ i {
     font-family: "Segoe Print"
 }
 
-/* animation menu */
+/* ANIMATION menu */
+
 .menu:hover {
     transform: perspective(150px) translateZ(45px);
     opacity: 0.8;
@@ -232,15 +233,15 @@ i {
 }
 .prochainement-font .dot-anime-0 {
     animation-delay: 400ms;
-    animation-duration: 1.4s;
+    animation-duration: 1.6s;
 }
 .prochainement-font .dot-anime-1 {
     animation-delay: 500ms;
-    animation-duration: 1.4s;
+    animation-duration: 1.6s;
 }
 .prochainement-font .dot-anime-2 {
     animation-delay: 600ms;
-    animation-duration: 1.4s;
+    animation-duration: 1.6s;
 }
 /* footer */
 footer {
