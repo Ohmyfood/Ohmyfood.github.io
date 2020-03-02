@@ -34,7 +34,6 @@
 /* --- */
 body {
     margin: auto;
-    position: relative;
 }
 /* header */
 header {
@@ -236,7 +235,7 @@ i {
 
 @media screen and (max-width: 1200px) {
     .prochainement {
-        margin-bottom: 220px;
+        margin-bottom: 23%;
     }
     
     .prochainement-font {
@@ -311,7 +310,13 @@ footer {
 
 h1 {
     text-align: center;
-    font-size: 38px;
+    font-size: 45px;
     font-family: Arial;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 5em;
+    }
 }
