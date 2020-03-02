@@ -190,7 +190,7 @@ i {
 .menu_right-down p:nth-child(1) {
     font-family: "kaushan script";
     display: block;
-    background: linear-gradient(150deg, #3d923a, #bfff7f);
+    background: linear-gradient(150deg, #3d923a, #bfff7f 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -284,4 +284,10 @@ h1 {
     font-size: 38px;
     font-family: Arial;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    h3 p {
+        visibility: hidden;
+    }
 }
