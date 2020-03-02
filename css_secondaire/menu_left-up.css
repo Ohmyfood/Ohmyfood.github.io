@@ -10,9 +10,10 @@ div {
     padding: 30px;
     font-family: "Segoe Print";
     color: #3d1319;
-    box-shadow: 0px 0px 17px #e0e0e0;
     margin-bottom: 120px;
-    padding-right: 70px;
+    padding-right: 100px;
+    padding-left: 45px;
+    box-shadow: 0px 0px 17px #e0e0e0;
 }
 
 div h3:nth-child(2) {
@@ -141,6 +142,7 @@ p i {
     
     section div {
         font-size: 1.4em;
+        width: /00px;
     }
     
     .line-left {
@@ -170,5 +172,5 @@ p i {
         font-family: "devonshire";
         margin-top: 50px;
         margin-bottom: 20px
-}
+    }
 }
