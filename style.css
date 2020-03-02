@@ -236,11 +236,11 @@ i {
 
 @media screen and (max-width: 1200px) {
     .prochainement {
-        margin-bottom: 150px
+        margin-bottom: 220px;
     }
     
     .prochainement-font {
-        font-size: 5em;*
+        font-size: 5em;
     }
     
 }

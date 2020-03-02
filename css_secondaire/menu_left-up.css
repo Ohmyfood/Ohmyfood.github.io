@@ -121,11 +121,6 @@ li p:nth-child(2) {
 p i {
     font-size: 1.2em;
 }
-
-@media screen and (max-width: 1200px) {
-    h3 p {
-        visibility: hidden;
-    }
     
     section div {
         padding: 10%;
@@ -148,3 +143,8 @@ p i {
     transform: scaleX(0.95)
     }
 }
+
+@media screen and (max-width: 1200px) {
+    h3 p {
+        visibility: hidden;
+    }
