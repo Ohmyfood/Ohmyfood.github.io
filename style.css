@@ -73,7 +73,7 @@ header {
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;
-    font-size: 2em
+    font-size: 2em;
 }
 
 /* affichage responsive */

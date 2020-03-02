@@ -142,7 +142,6 @@ p i {
     
     section div {
         font-size: 1.4em;
-        width: /00px;
     }
     
     ul {
@@ -168,7 +167,7 @@ p i {
     }
     
     li {
-        font-size: 30px;
+        font-size: 35px;
     }
     
     .pied_menu {
