@@ -145,6 +145,10 @@ p i {
         width: /00px;
     }
     
+    ul {
+        margin-top: -100px;
+    }
+    
     .line-left {
         width: 180px;
         position: absolute;
