@@ -154,7 +154,7 @@ p i {
         left: 6.8%;
         top: 15%;
         transform-origin: left;
-        transform: scaleX(0.9)
+        transform: scaleX(0.4)
     }
 
     .line-right {
@@ -163,7 +163,7 @@ p i {
         right: -0.9%;
         top: 15%;
         transform-origin: right;
-        transform: scaleX(1.25)
+        transform: scaleX(0.8)
     }
     
     li {
