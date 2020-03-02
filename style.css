@@ -58,8 +58,8 @@ header {
 .menu {
     text-decoration: none;
     display: inline-flex;
-    width: 420px;
-    height: 593px;
+    width: 800px;
+    height: 993px;
     margin: 20px;
     margin-left: 14%;
     margin-right: 14%;
@@ -67,7 +67,7 @@ header {
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;
-    font-size: 1.5em
+    font-size: 2em
 }
 
 /* affichage responsive */
@@ -177,7 +177,6 @@ i {
 
 .menu_left-down p:nth-child(2) {
     font-family: "Segoe Print";
-    font-weight: ;
     color: #0886fb;
 }
 
@@ -290,4 +289,10 @@ h1 {
     h3 p {
         visibility: hidden;
     }
+    
+    section div {
+
+        font-size: 1.4em;
+    }
 }
+
