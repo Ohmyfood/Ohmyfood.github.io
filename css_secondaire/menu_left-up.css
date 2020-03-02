@@ -121,3 +121,30 @@ li p:nth-child(2) {
 p i {
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 1200px) {
+    h3 p {
+        visibility: hidden;
+    }
+    
+    section div {
+        padding: 10%;
+        font-size: 1.4em;
+    }
+    
+    .line-left {
+    width: 180px;
+    position: absolute;
+    left: 6.8%;
+    transform-origin: left;
+    transform: scaleX(0.74)
+    }
+
+    .line-right {
+    width: 180px;
+    position: absolute;
+    right: -0.9%;
+    transform-origin: right;
+    transform: scaleX(0.95)
+    }
+}

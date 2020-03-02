@@ -140,3 +140,15 @@ li p {
 li p:nth-child(2) {
     margin-left: 50px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+    h3 p {
+        visibility: hidden;
+    }
+    
+    section div {
+        font-size: 1.4em;
+    }
+}
