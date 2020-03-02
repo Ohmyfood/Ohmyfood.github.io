@@ -151,7 +151,7 @@ p i {
         left: 6.8%;
         top: 15%;
         transform-origin: left;
-        transform: scaleX(0.95)
+        transform: scaleX(0.9)
     }
 
     .line-right {
@@ -164,8 +164,9 @@ p i {
     }
     
     li {
-        font-size: 28px;
+        font-size: 30px;
     }
+    
     .pied_menu {
         text-align: center;
         font-size: 3.2em;
