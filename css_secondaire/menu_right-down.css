@@ -136,7 +136,7 @@ li p:nth-child(2) {
     
     h3 {
         font-size: 1.78em;
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
     
     h3 p {
