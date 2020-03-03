@@ -10,8 +10,8 @@ div {
     padding: 30px;
     box-shadow: 0px 0px 17px #e0e0e0;
     margin-bottom: 120px;
-    padding-right: 80px;
-    padding-bottom: 120px
+    padding-right: 100px;
+    padding-left: 45px;
 }
 
 div h3:nth-child(2) {
@@ -146,6 +146,7 @@ li p:nth-child(2) {
     
     h3 {
         font-size: 1.6em;
+        margin-bottom: 50px;
     }
     
     h3 p {
@@ -159,35 +160,26 @@ li p:nth-child(2) {
     
     ul {
         margin-top: -100px;
+        margin-bottom: 100px;
     }
     
     .line-left {
         width: 180px;
         position: absolute;
-        left: 6.8%;
-        top: 15%;
+        top: 6%;
         transform-origin: left;
-        transform: scaleX(0.4)
+        transform: scaleX(1.35)
     }
 
     .line-right {
         width: 180px;
         position: absolute;
-        right: -0.9%;
-        top: 15%;
+        top: 10%;
         transform-origin: right;
-        transform: scaleX(0.8)
+        transform: scaleX(1.35)
     }
     
     li {
         font-size: 35px;
-    }
-    
-    .pied_menu {
-        text-align: center;
-        font-size: 3.2em;
-        font-family: "devonshire";
-        margin-top: 50px;
-        margin-bottom: 20px
     }
 }
