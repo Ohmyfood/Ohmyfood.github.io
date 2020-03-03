@@ -61,6 +61,11 @@ header {
     padding-left: -100%;
 }
 
+.section-menus div:nth-child(1) {
+    display: flex;
+    align-self: center
+}
+
 .menu {
     text-decoration: none;
     display: inline-flex;
@@ -79,11 +84,11 @@ header {
 /* affichage responsive */
 
 @media screen and (min-width: 1200px) {
-    div .menu {
-        margin: 20px;
-        width: 360px;
-        height: 509px;
-        font-size: 1em;
+       .menu {
+            margin: 20px;
+            width: 360px;
+            height: 509px;
+            font-size: 1em;
     }
 }
 
@@ -155,8 +160,9 @@ i {
 
 .menu_right-up p:nth-child(1) {
     font-family: "croissant one";
-    font-size: 1.6em;
+    margin: 0;
     display: block;
+    font-size: 1.5em;
     background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -165,6 +171,7 @@ i {
 .menu_right-up p:nth-child(2) {
     font-weight: 600;
     color: #c77312;
+    font-size: 60px
 }
 
 /* menu left-down */
@@ -176,6 +183,7 @@ i {
 .menu_left-down p:nth-child(1) {
     font-family: "dancing script";
     margin: 0;
+    font-size: 2.5em;
     display: block;
     background: linear-gradient(167deg, #0020d8, #0889fb 87%);
     -webkit-background-clip: text;
@@ -197,6 +205,7 @@ i {
 .menu_right-down p:nth-child(1) {
     font-family: "kaushan script";
     margin: 0;
+    font-size: 2.5em;
     display: block;
     background: linear-gradient(150deg, #3d923a, #bfff7f 70%);
     -webkit-background-clip: text;
@@ -233,16 +242,6 @@ i {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-    .prochainement {
-        margin-bottom: 23%;
-    }
-    
-    .prochainement-font {
-        font-size: 5em;
-    }
-    
-}
 /* animation prochainement */
 .prochainement span {
     visibility: hidden;
@@ -285,11 +284,6 @@ footer {
     margin-left: 1%;
 }
 
-@media screen and (max-width: 1200px) {
-    .font-footer {
-        font-size: 3.5em
-    }
-}
 /* animation footer*/
 @keyframes wriggle {
     45% {
@@ -315,8 +309,22 @@ h1 {
     margin-top: 50px;
 }
 
+
+/* responsive */
+
 @media screen and (max-width: 1200px) {
     h1 {
         font-size: 5em;
     }
+    .font-footer {
+        font-size: 3.5em
+    }
+    .prochainement {
+        margin-bottom: 23%;
+    }
+    .prochainement-font {
+        font-size: 5em;
+    }
+    
+    
 }
