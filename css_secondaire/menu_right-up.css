@@ -81,7 +81,6 @@ h3 p {
 }
 .entre p {
     margin-left: -195.09px;
-    position: absolute;
     right: 0;
     left: 0;
     bottom: -24px;
@@ -96,7 +95,6 @@ h3 p {
 
 .plat-principale p {
     margin-left: -22.5%;
-    position: absolute;
     right: 0;
     left: 0;
     bottom: -24px;
@@ -111,7 +109,6 @@ h3 p {
 
 .dessert p {
     margin-left: -27%;
-    position: absolute;
     right: 0;
     left: 0;
     bottom: -24px;
@@ -134,7 +131,6 @@ li {
 }
 
 li p {
-    line-height: 5px;
 }
 
 li p:nth-child(2) {
@@ -144,11 +140,54 @@ li p:nth-child(2) {
 /* responsive */
 
 @media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 4em;    
+    }
+    
+    h3 {
+        font-size: 1.6em;
+    }
+    
     h3 p {
         visibility: hidden;
     }
     
     section div {
         font-size: 1.4em;
+        margin-bottom: 250px;
+    }
+    
+    ul {
+        margin-top: -100px;
+    }
+    
+    .line-left {
+        width: 180px;
+        position: absolute;
+        left: 6.8%;
+        top: 15%;
+        transform-origin: left;
+        transform: scaleX(0.4)
+    }
+
+    .line-right {
+        width: 180px;
+        position: absolute;
+        right: -0.9%;
+        top: 15%;
+        transform-origin: right;
+        transform: scaleX(0.8)
+    }
+    
+    li {
+        font-size: 35px;
+    }
+    
+    .pied_menu {
+        text-align: center;
+        font-size: 3.2em;
+        font-family: "devonshire";
+        margin-top: 50px;
+        margin-bottom: 20px
     }
 }

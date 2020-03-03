@@ -63,7 +63,9 @@ header {
 
 .section-menus div:nth-child(1) {
     display: flex;
-    align-self: center
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 .menu {
@@ -78,7 +80,7 @@ header {
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 /* affichage responsive */
@@ -162,7 +164,7 @@ i {
     font-family: "croissant one";
     margin: 0;
     display: block;
-    font-size: 1.5em;
+    font-size: em;
     background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -171,7 +173,7 @@ i {
 .menu_right-up p:nth-child(2) {
     font-weight: 600;
     color: #c77312;
-    font-size: 60px
+    margin-top: 30px
 }
 
 /* menu left-down */
@@ -306,7 +308,7 @@ h1 {
     text-align: center;
     font-size: 45px;
     font-family: Arial;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 
