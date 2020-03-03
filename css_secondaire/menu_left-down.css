@@ -85,9 +85,6 @@ h3 p {
 }
 .entre p {
     margin-left: -179px;
-    position: absolute;
-    right: 0;
-    left: 0;
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
@@ -100,9 +97,6 @@ h3 p {
 
 .plat-principale p {
     margin-left: -161.5px;
-    position: absolute;
-    right: 0;
-    left: 0;
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
@@ -115,9 +109,6 @@ h3 p {
 
 .dessert p {
     margin-left: -23.2%;
-    position: absolute;
-    right: 0;
-    left: 0;
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
@@ -137,12 +128,52 @@ li {
     font-size: 14px;
 }
 
-li p {
-    line-height: 5px;
-}
-
 li p:nth-child(2) {
     margin-left: 50px;
-    font-size: 17px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 4em;    
+    }
+    
+    h3 {
+        font-size: 1.6em;
+        margin-bottom: 50px;
+    }
+    
+    h3 p {
+        visibility: hidden;
+    }
+    
+    section div {
+        font-size: 1.4em;
+        margin-bottom: 250px;
+    }
+    
+    ul {
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+    
+    .line-left {
+        width: 180px;
+        position: absolute;
+        top: 15%;
+        transform-origin: left;
+        transform: scaleX(0.6)
+    }
+
+    .line-right {
+        width: 180px;
+        position: absolute;
+        top: 16%;
+        transform-origin: right;
+        transform: scaleX(0.6)
+    }
+    
+    li {
+        font-size: 2em;
+    }
 }

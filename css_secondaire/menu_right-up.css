@@ -166,9 +166,9 @@ li p:nth-child(2) {
     .line-left {
         width: 180px;
         position: absolute;
-        top: 6%;
+        top: 9%;
         transform-origin: left;
-        transform: scaleX(1.35)
+        transform: scaleX(0.7)
     }
 
     .line-right {
@@ -176,7 +176,7 @@ li p:nth-child(2) {
         position: absolute;
         top: 10%;
         transform-origin: right;
-        transform: scaleX(1.35)
+        transform: scaleX(0.7)
     }
     
     li {
