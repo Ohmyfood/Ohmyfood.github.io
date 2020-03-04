@@ -306,9 +306,6 @@ h1 {
 /* responsive */
 
 @media screen and (max-width: 470px) {
-    h1 {
-        font-size: 5em;
-    }
     .menu:hover {
         transform: perspective(0) translateZ(0);
         opacity: 1;
@@ -316,7 +313,6 @@ h1 {
     .font-footer {
         font-size: 1.57em;
     }
-    
 }
 @media screen and (max-width: 768px){
     .menu:hover {
