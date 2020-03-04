@@ -83,8 +83,6 @@ header {
     
 }
 
-/* affichage responsive */
-
 /* --- */
 
 .menu p {
@@ -311,14 +309,18 @@ h1 {
     h1 {
         font-size: 5em;
     }
-    .menu {           
-        width: ;    
-        height: ;
-        margin: ;
-        font-size: ;
+    .menu:hover {
+        transform: perspective(0) translateZ(0);
+        opacity: 1;
     }
     .font-footer {
         font-size: 1.57em;
     }
     
+}
+@media screen and (max-width: 768px){
+    .menu:hover {
+        transform: perspective(0) translateZ(0);
+        opacity: 1;
+    }
 }
