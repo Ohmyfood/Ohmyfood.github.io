@@ -307,7 +307,7 @@ h1 {
 
 /* responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 470px) {
     h1 {
         font-size: 5em;
     }
@@ -318,16 +318,7 @@ h1 {
         font-size: ;
     }
     .font-footer {
-        font-size: ;
-    }
-    .prochainement {
-        margin-bottom: ;
-    }
-    .prochainement-font {
-        font-size: ;
-    }
-    .img-logo {
-        width: %;
+        font-size: 1.57em;
     }
     
 }
