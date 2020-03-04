@@ -14,9 +14,6 @@ div {
     padding-right: 100px;
     padding-left: 45px;
     box-shadow: 0px 0px 17px #e0e0e0;
-    width: ;
-    min-width: ;
-    margin: ;
 }
 
 div h3:nth-child(2) {
@@ -130,7 +127,7 @@ p i {
     
    
 
-@media screen and (max-width: 0px) {
+@media screen and (max-width: 450px) {
     
     section {
         
