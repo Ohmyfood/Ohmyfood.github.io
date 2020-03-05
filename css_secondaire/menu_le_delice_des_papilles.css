@@ -27,7 +27,6 @@ h2 {
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 100px;
-    margin-left: 60px;
     display: block;
     background: linear-gradient(167deg, #0020d8, #0889fb 87%);
     -webkit-background-clip: text;
@@ -133,47 +132,48 @@ li p:nth-child(2) {
     font-weight: 600;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
+    
+    section {
+        width: 400px;
+        min-width: 100%;
+    }
+    div {
+        padding-left: 0px;
+        padding-right: 0;
+    }
     h2 {
-        font-size: 4em;    
+        font-size: 2.5em;
+        margin-bottom: 50px;
     }
     
     h3 {
-        font-size: 1.6em;
-        margin-bottom: 50px;
+        font-size: 1.19em;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     h3 p {
         visibility: hidden;
     }
-    
-    section div {
-        font-size: 1.4em;
-        margin-bottom: 250px;
-    }
-    
-    ul {
-        margin-top: -100px;
-        margin-bottom: 100px;
+    ul{
+        margin-top: -35px;
     }
     
     .line-left {
-        width: 180px;
-        position: absolute;
-        top: 15%;
-        transform-origin: left;
-        transform: scaleX(0.6)
+        left: 0;
+        transform: scaleX(0.28)
     }
-
     .line-right {
-        width: 180px;
-        position: absolute;
-        top: 16%;
-        transform-origin: right;
-        transform: scaleX(0.6)
+        right: 0;
+        transform: scaleX(0.28)
     }
     
     li {
-        font-size: 2em;
+        font-size: 1em;
+        margin-top: -10px
+    }
+    li p:nth-child(2) {
+        margin-right: 41px
     }
 }
