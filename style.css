@@ -55,7 +55,6 @@ header {
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: -100%;
 }
 
 .section-menus div {
@@ -151,7 +150,6 @@ i {
     font-family: "croissant one";
     margin: 0;
     display: block;
-    font-size: em;
     background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
