@@ -167,7 +167,16 @@ li p:nth-child(2) {
     }
     .line-right {
         right: 20px;
-        transform: scaleX(0.28)
+        top: 4px;
+        transform: scaleX(0.38)
+    }
+    
+    h3 .line-right:nth-child(2) {
+        top: 0;
+    }
+    
+    .line-right:nth-child(1) {
+        top: 1px;
     }
     
     li {
