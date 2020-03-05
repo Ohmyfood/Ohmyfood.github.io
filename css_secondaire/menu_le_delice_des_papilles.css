@@ -165,12 +165,12 @@ li p:nth-child(2) {
     .line-left {
         left: 20px;
         top: 1px;
-        transform: scaleX(0.38)
+        transform: scaleX(0.34)
     }
     .line-right {
         right: 20px;
         top: 0;
-        transform: scaleX(0.38)
+        transform: scaleX(0.34)
     }
     
     li {
