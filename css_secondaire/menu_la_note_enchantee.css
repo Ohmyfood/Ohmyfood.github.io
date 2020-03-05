@@ -37,7 +37,7 @@ h3 {
     margin-bottom: -35px;
     overflow: hidden;
     position: relative;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .line-left {
@@ -46,7 +46,7 @@ h3 {
     left: 6.8%;
     top: 9%;
     transform-origin: left;
-    transform: scaleX(1.15)
+    transform: scaleX(1)
 }
 
 .line-right {
@@ -127,11 +127,15 @@ p i {
     
    
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     
     section {
         width: 400px;
         min-width: 100%;
+    }
+    div {
+        padding-left: 2px;
+        padding-right: 20px;
     }
     h2 {
         font-size: 1em;    
@@ -160,16 +164,16 @@ p i {
         left: 6.8%;
         top: 15%;
         transform-origin: left;
-        transform: scaleX(0.4)
+        transform: scaleX(0.51)
     }
 
     .line-right {
         width: 180px;
         position: absolute;
         right: -0.9%;
-        top: 15%;
+        top: 2%;
         transform-origin: right;
-        transform: scaleX(0.5)
+        transform: scaleX(0.65)
     }
     
     li {
