@@ -46,7 +46,7 @@ h3 {
     left: 39px;
     top: 9%;
     transform-origin: left;
-    transform: scaleX(1)
+    transform: scaleX(0.77)
 }
 
 .line-right {
@@ -55,7 +55,7 @@ h3 {
     right: -5px;
     top: 9%;
     transform-origin: right;
-    transform: scaleX(1.4)
+    transform: scaleX(0.77)
 }
 
 /* animation titre */
