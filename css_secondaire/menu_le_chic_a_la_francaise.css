@@ -10,8 +10,8 @@ div {
     padding: 30px;
     box-shadow: 0px 0px 17px #e0e0e0;
     margin-bottom: 120px;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 div h3:nth-child(2) {
@@ -35,8 +35,6 @@ h3 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 18px;
-    margin-left: -2%;
-    margin-right: -12%;
     overflow: hidden;
     position: relative;
 }
@@ -45,18 +43,18 @@ h3 {
     width: 180px;
     position: absolute;
     left: 0;
-    top: -5px;
+    top: -4px;
     transform-origin: left;
-    transform: scaleX(1.18)
+    transform: scaleX(0.97)
 }
 
 .line-right {
     width: 180px;
     position: absolute;
-    right: 5%;
+    right: 0;
     top: -4px;
     transform-origin: right;
-    transform: scaleX(1)
+    transform: scaleX(0.97)
 }
 
 /* color-font */
@@ -127,11 +125,13 @@ li {
     font-size: 17px;
 }
 
-li p {
+li p:nth-child(1) {
+    margin-left: 40px;
 }
 
 li p:nth-child(2) {
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-right: 80px
 }
 
 /* responsive */
