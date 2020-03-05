@@ -313,7 +313,10 @@ h1 {
     }
     h1 {
         width: 400px;
-        min-width: 100%
+        min-width: 100%;
+        color: #353535;
+        font-size: 40px;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 768px){

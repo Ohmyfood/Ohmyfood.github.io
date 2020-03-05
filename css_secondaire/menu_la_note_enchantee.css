@@ -138,50 +138,37 @@ p i {
         padding-right: 20px;
     }
     h2 {
-        font-size: 1em;    
+        font-size: 2.5em;    
     }
     
     h3 {
-        font-size: 1em;
+        font-size: 1.19em;
     }
     
     h3 p {
         visibility: hidden;
     }
-    
-    section div {
-        font-size: 1em;
-        margin-bottom: px;
-    }
-    
-    ul {
-        margin-top: px;
+    ul{
+        margin-top: 10px;
     }
     
     .line-left {
-        width: 180px;
-        position: absolute;
-        left: 6.8%;
-        top: 15%;
-        transform-origin: left;
-        transform: scaleX(0.51)
+        top: 5%;
+        transform: scaleX(0.4)
     }
 
     .line-right {
-        width: 180px;
-        position: absolute;
-        right: -0.9%;
-        top: 2%;
-        transform-origin: right;
-        transform: scaleX(0.65)
+        top: 5%;
+        transform: scaleX(0.54)
     }
     
     li {
         font-size: 1em;
+        margin-top: -10px
     }
     
     .pied_menu {
-        font-size: 1em;
+        font-size: 2em;
         
     }
 }
