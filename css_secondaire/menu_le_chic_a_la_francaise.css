@@ -142,9 +142,6 @@ li p:nth-child(2) {
         width: 400px;
         min-width: 100%;
     }
-    section div {
-        padding-left: 0;
-    }
     h2 {
         font-size: 2.5em;
         margin-bottom: 50px;
@@ -165,11 +162,11 @@ li p:nth-child(2) {
     
     .line-left {
         left: 0;
-        transform: scaleX(0.49)
+        transform: scaleX(0.28)
     }
     .line-right {
         right: 0;
-        transform: scaleX(0.52)
+        transform: scaleX(0.28)
     }
     
     li {
