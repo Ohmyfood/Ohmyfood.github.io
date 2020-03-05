@@ -161,11 +161,11 @@ li p:nth-child(2) {
     }
     
     .line-left {
-        left: 0;
+        left: 20px;
         transform: scaleX(0.28)
     }
     .line-right {
-        right: 0;
+        right: 20px;
         transform: scaleX(0.28)
     }
     
