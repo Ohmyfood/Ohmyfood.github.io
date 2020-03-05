@@ -132,8 +132,6 @@ p i {
         width: 400px;
         min-width: 100%;
     }
-    div {
-    }
     h2 {
         font-size: 2.5em;    
     }
@@ -157,7 +155,7 @@ p i {
     }
 
     .line-right {
-        right: 40px;
+        right: 20px;
         top: 5%;
         transform: scaleX(0.4)
     }
@@ -165,6 +163,10 @@ p i {
     li {
         font-size: 1em;
         margin-top: -10px
+    }
+    
+    li p:nth-child(2) {
+        margin-right: 25px;
     }
     
     .pied_menu {
