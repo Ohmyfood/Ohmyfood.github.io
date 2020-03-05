@@ -130,13 +130,8 @@ p i {
 @media screen and (max-width: 400px) {
     
     section {
-        justify-content: center;
-    }
-    
-    div {
         width: 400px;
-        min-width:  100%;
-        max-width: 100%;
+        min-width: 100%;
     }
     h2 {
         font-size: 1em;    
