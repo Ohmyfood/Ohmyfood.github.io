@@ -57,6 +57,12 @@ header {
     margin-bottom: 20px;
 }
 
+.hidden {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 .section-menus div {
     display: flex;
     align-self: center;
@@ -76,11 +82,13 @@ header {
     box-shadow: 0px 0px 17px #e0e0e0;
     justify-content: center;
     flex-direction: column;
-    transition: all 250ms ease-in-out;
-    
+    transition: all 250ms ease-in-out;    
 }
 
-/* --- */
+.menu:hover {
+    transform: perspective(150px) translateZ(45px);
+    opacity: 0.8;
+}
 
 .menu p {
     margin: 20px;
@@ -98,24 +106,25 @@ header {
     color: black;
 }
 
-/* menu left-up */
+/* --- */
+/* menu la note enchantése */
 
-.menu_left-up {
+.menu_la_note_enchantee {
     background-color: #fcdfdb;
 }
 
 
-.menu_left-up p {
+.menu_la_note_enchantee p {
     color: #3d1319;
 }
 
-.menu_left-up p:nth-child(1) {
+.menu_la_note_enchantee p:nth-child(1) {
     font-family: "devonshire";
     font-size: 2.5em;
     order: 2;
 }
 
-.menu_left-up p:nth-child(2) {
+.menu_la_note_enchantee p:nth-child(2) {
     font-family: "Segoe Print";
     font-weight: 600;
     margin: 0;
@@ -123,7 +132,7 @@ header {
     order: 3;
 }
 
-.menu_left-up p:nth-child(3) {
+.menu_la_note_enchantee p:nth-child(3) {
     order: 1;
     margin-bottom: -30px;
 }
@@ -140,13 +149,13 @@ i {
 
 }
 
-/* menu right-up */
+/* menu le chic à la française */
 
-.menu_right-up {
+.menu_le_chic_a_la_francaise {
     background-color: #fff5fe;
 }
 
-.menu_right-up p:nth-child(1) {
+.menu_le_chic_a_la_francaise p:nth-child(1) {
     font-family: "croissant one";
     margin: 0;
     display: block;
@@ -155,19 +164,19 @@ i {
     -webkit-text-fill-color: transparent;
 }
 
-.menu_right-up p:nth-child(2) {
+.menu_le_chic_a_la_francaise p:nth-child(2) {
     font-weight: 600;
     color: #c77312;
     margin-top: 30px;
 }
 
-/* menu left-down */
+/* menu le délice des papilles */
 
-.menu_left-down {
+.menu_le_delice_des_papilles {
     background-color: #f9f9f9;
 }
 
-.menu_left-down p:nth-child(1) {
+.menu_le_delice_des_papilles p:nth-child(1) {
     font-family: "dancing script";
     margin: 0;
     font-size: 2.5em;
@@ -177,18 +186,18 @@ i {
     -webkit-text-fill-color: transparent;
 }
 
-.menu_left-down p:nth-child(2) {
+.menu_le_delice_des_papilles p:nth-child(2) {
     font-family: "Segoe Print";
     color: #0886fb;
 }
 
-/* menu right-down */
+/* menu la palette du goût */
 
-.menu_right-down {
+.menu_la_palette_du_gout {
     background-color: #fdfffd;
 }
 
-.menu_right-down p:nth-child(1) {
+.menu_la_palette_du_gout p:nth-child(1) {
     font-family: "kaushan script";
     margin: 0;
     font-size: 2.5em;
@@ -198,17 +207,11 @@ i {
     -webkit-text-fill-color: transparent;
 }
 
-.menu_right-down p:nth-child(2) {
+.menu_la_palette_du_gout p:nth-child(2) {
     color: #72bf56;
     font-family: "Segoe Print";
 }
 
-/* ANIMATION menu */
-
-.menu:hover {
-    transform: perspective(150px) translateZ(45px);
-    opacity: 0.8;
-}
 /* section prochainement */
 .prochainement {
     display: flex;
