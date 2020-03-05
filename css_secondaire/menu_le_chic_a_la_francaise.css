@@ -168,11 +168,11 @@ li p:nth-child(2) {
     
     .line-left {
         left: 0;
-        transform: scaleX(0.5)
+        transform: scaleX(0.45)
     }
     .line-right {
         right: 0;
-        transform: scaleX(0.5)
+        transform: scaleX(0.45)
     }
     
     li {
