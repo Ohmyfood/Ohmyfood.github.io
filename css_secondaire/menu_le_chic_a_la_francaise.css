@@ -157,7 +157,7 @@ li p:nth-child(2) {
         visibility: hidden;
     }
     ul{
-        margin-top: 10px;
+        margin-top: -35px;
     }
     
     .line-left {
