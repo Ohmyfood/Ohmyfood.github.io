@@ -155,7 +155,7 @@ p i {
     .line-left {
         left: 30px;
         top: 5%;
-        transform: scaleX(0.4)
+        transform: scaleX(0.45)
     }
 
     .line-right {

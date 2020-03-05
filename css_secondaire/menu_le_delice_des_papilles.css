@@ -159,24 +159,18 @@ li p:nth-child(2) {
     }
     ul{
         margin-top: -35px;
+        margin-bottom: 20px
     }
     
     .line-left {
         left: 20px;
-        transform: scaleX(0.28)
+        top: 1px;
+        transform: scaleX(0.38)
     }
     .line-right {
         right: 20px;
-        top: 4px;
-        transform: scaleX(0.38)
-    }
-    
-    h3 .line-right:nth-child(2) {
         top: 0;
-    }
-    
-    .line-right:nth-child(1) {
-        top: 1px;
+        transform: scaleX(0.38)
     }
     
     li {
