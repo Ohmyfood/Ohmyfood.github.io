@@ -47,16 +47,16 @@ h3 {
     left: 0;
     top: -5px;
     transform-origin: left;
-    transform: scaleX(1.2)
+    transform: scaleX(1.18)
 }
 
 .line-right {
     width: 180px;
     position: absolute;
-    right: 9%;
+    right: 5%;
     top: -4px;
     transform-origin: right;
-    transform: scaleX(1.2)
+    transform: scaleX(1)
 }
 
 /* color-font */
