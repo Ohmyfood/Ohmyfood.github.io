@@ -43,7 +43,7 @@ h3 {
 .line-left {
     width: 180px;
     position: absolute;
-    left: 6.8%;
+    left: 39px;
     top: 9%;
     transform-origin: left;
     transform: scaleX(1)
@@ -52,7 +52,7 @@ h3 {
 .line-right {
     width: 180px;
     position: absolute;
-    right: -0.9%;
+    right: -5px;
     top: 9%;
     transform-origin: right;
     transform: scaleX(1.4)
@@ -151,11 +151,13 @@ p i {
     }
     
     .line-left {
+        left: 40px;
         top: 5%;
         transform: scaleX(0.4)
     }
 
     .line-right {
+        right: 0;
         top: 5%;
         transform: scaleX(0.54)
     }
