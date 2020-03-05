@@ -177,6 +177,13 @@ li p:nth-child(2) {
         top: 1px;
         transform: scaleX(0.34)
     }
+    
+    .line-principale-left {
+        top: -2px;
+    }
+    .line-principale-right {
+        top: -2px;
+    }
     .line-right {
         right: 20px;
         top: 0;
