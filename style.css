@@ -1,4 +1,4 @@
-/* -----------------------------------------*/
+/*------------------------------------------*/
 /* ==            SUMMARY                   */
 /*----------------------------------------*/
 
@@ -8,71 +8,82 @@
 
 
 
-/* -----------------------------------------*/
+/*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
 /*
-Green(background header footer prochainement-font):                 #579c87
-Shadow grey(shadow menu):                                           #e0e0e0
+Green (background header footer prochainement-font):                #579c87
+Shadow grey (shadow menu):                                          #e0e0e0
 Beige (background la_note_enchantee):                               #fcdfdb
 Dark red (font-color la_note_enchantee):                            #3d1319
 Red/Orange gradient (background icon):                              #ef4760 --> #f6926a
-Light pink(background le_chic_a_la_francaise):                      #fff5fe
+Light pink (background le_chic_a_la_francaise):                     #fff5fe
 Orange/Purple gradient (font-color le_chic_a_la_francaise):         #e38913 --> #8f5bfe
-Dark orange(font-color le_chic_a_la_francaise):                     #c77312
+Dark orange (font-color le_chic_a_la_francaise):                    #c77312
 Light grey (background le_delice_des_papilles):                     #f9f9f9
 Dark blue/Light blue gradient (font-color le_delice_des_papilles):  #0020d8 --> #0889fb
 Blue (font-color le_delice_des_papilles):                           #0886fb
 Dark green/Light green (font-color la_palette_du_gout):             #3d923a --> #bfff7f
 Green (font-color la_palette_du_gout):                              #72bf56
-
+Yellow (font-color prochainement-font font-footer):                 #fdcb46
+Dark grey (color-font h1):                                          #353535
 */
-
-
-
-
-
-
-
-
-/* police d'écriture */
-
+/*------------------------------------------*/
+/* ==            DEFINITIONS DES POLICES   */
+/*----------------------------------------*/
 @font-face {
     font-family: "segoe print";
     src: url("font/segoe-print/segoe-print.woff") format("woff"),
          url("font/segoe-print/segoe-print.ttf") format("ttf"),
          url("font/segoe-print/segoe-print.otf") format("otf");
 }
-
 @font-face {
     font-family: "devonshire";
     src: url("font/devonshire/devonshire.ttf") format("ttf"),
          url("font/devonshire/devonshire.woff") format("woff");
 }
-
 @font-face {
     font-family: "kaushan script";
     src: url("font/kaushan-script/kaushan-script.ttf") format("ttf"),
          url("font/kaushan-script/kaushan-script.woff") format("woff");
 }
-
 @font-face {
     font-family: "dancing script";
     src: url(font/dancing-script/dancing-script.ttf) format("ttf"),
          url(font/dancing-script/dancing-script.woff) format("woff");
 }
-
 @font-face {
     font-family: "croissant one";
     src: url(font/croissant-one/croissant-one.ttf) format("ttf"),
          url(font/croissant-one/croissant-one.woff) format("woff")
 }
-
-/* --- */
+/*------------------------------------------*/
+/* ==            ELEMENTS PRINCIPAUX       */
+/*----------------------------------------*/
 body {
     margin: auto;
 }
-/* header */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+    margin-top: 90px;
+    color: #353535;
+}
+.hidden {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+i {
+    display: block;
+    background: linear-gradient(to right, #ef4760, #f6926a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*------------------------------------------*/
+/* ==            HEADER                    */
+/*----------------------------------------*/
 header {
     background-color: #579c87;
     text-align: center;
@@ -83,8 +94,10 @@ header {
     width: 280px;
     padding: 2%;
 }
+/*------------------------------------------*/
+/* ==            SECTION                   */
+/*----------------------------------------*/
 
-/* section menu */
 .section-menus {
     display: flex;
     flex-direction: column;
@@ -93,70 +106,50 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.hidden {
-    visibility: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 .section-menus div {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .menu {
-    text-decoration: none;
-    display: flex;
-    margin: 20px;
     width: 360px;
     height: 509px;
     font-size: 1em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 17px #e0e0e0; 
+    margin: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 17px #e0e0e0;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;    
 }
-
+/* animation menu */
 .menu:hover {
     transform: perspective(150px) translateZ(45px);
     opacity: 0.8;
 }
-
 .menu p {
     margin: 20px;
 }
-
 .menu p:nth-child(1) {
     font-size: 2em;
 }
-
 .menu p:nth-child(2) {
     font-size: 3em;
 }
-
-/* --- */
-/* menu la note enchantése */
-
+/* la note enchantése */
 .menu_la_note_enchantee {
     background-color: #fcdfdb;
 }
-
-
 .menu_la_note_enchantee p {
     color: #3d1319;
 }
-
 .menu_la_note_enchantee p:nth-child(1) {
     font-family: "devonshire";
     font-size: 2.5em;
     order: 2;
 }
-
 .menu_la_note_enchantee p:nth-child(2) {
     font-family: "Segoe Print";
     font-weight: 600;
@@ -164,30 +157,17 @@ header {
     margin-top: -10px;
     order: 3;
 }
-
 .menu_la_note_enchantee p:nth-child(3) {
     order: 1;
     margin-bottom: -30px;
 }
-
 .icone_homepage {
     font-size: 3.5em;
 }
-
-i {
-    display: block;
-    background: linear-gradient(to right, #ef4760, #f6926a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-/* menu le chic à la française */
-
+/* le chic à la française */
 .menu_le_chic_a_la_francaise {
     background-color: #fff5fe;
 }
-
 .menu_le_chic_a_la_francaise p:nth-child(1) {
     font-family: "croissant one";
     margin: 0;
@@ -196,19 +176,15 @@ i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .menu_le_chic_a_la_francaise p:nth-child(2) {
     font-weight: 600;
     color: #c77312;
     margin-top: 30px;
 }
-
-/* menu le délice des papilles */
-
+/* le délice des papilles */
 .menu_le_delice_des_papilles {
     background-color: #f9f9f9;
 }
-
 .menu_le_delice_des_papilles p:nth-child(1) {
     font-family: "dancing script";
     margin: 0;
@@ -218,18 +194,15 @@ i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .menu_le_delice_des_papilles p:nth-child(2) {
     font-family: "Segoe Print";
     color: #0886fb;
 }
-
-/* menu la palette du goût */
+/* la palette du goût */
 
 .menu_la_palette_du_gout {
     background-color: #fdfffd;
 }
-
 .menu_la_palette_du_gout p:nth-child(1) {
     font-family: "kaushan script";
     margin: 0;
@@ -239,13 +212,13 @@ i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .menu_la_palette_du_gout p:nth-child(2) {
     color: #72bf56;
     font-family: "Segoe Print";
 }
-
-/* section prochainement */
+/*------------------------------------------*/
+/* ==            SECTION                   */
+/*----------------------------------------*/
 .prochainement {
     display: flex;
     justify-content: center;
@@ -254,19 +227,15 @@ i {
     width: 400px;
     min-width: 100%;
 }
-
-
-
 .prochainement-font {
     display: inline;
-    background-color: #579c87;/* == */
-    color: #fdcb46;/* == */
+    background-color: #579c87;
+    color: #fdcb46;
     font-size: 40px;
     font-family: Arial;
     padding: 8px 3% 12px 3%;
     border-radius: 10px;
 }
-
 /* animation prochainement */
 .prochainement span {
     visibility: hidden;
@@ -290,9 +259,11 @@ i {
     animation-delay: 600ms;
     animation-duration: 1.6s;
 }
-/* footer */
+/*------------------------------------------*/
+/* ==            FOOTER                    */
+/*----------------------------------------*/
 footer {
-    background-color: #579c87;/* == */
+    background-color: #579c87;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -301,43 +272,38 @@ footer {
     padding: 13px 0 15px 0;
 }
 .font-footer {
-    color: #fdcb46;/* == */
+    color: #fdcb46;
     font-family: Arial;
     font-size: 30px;
     text-decoration: none;
     margin-right: 1%;
     margin-left: 1%;
 }
-
 /* animation footer*/
+.font-footer {
+    animation: wriggle 870ms;
+    animation-iteration-count: infinite;
+}
 @keyframes wriggle {
-    45% {
+    30% {
+        transform: translateX(0)
+    }
+    40% {
+        transform: translateX(-5px)
+    }
+    60% {
+        transform: translateX(5px)
+    }
+    80% {
         transform: translateX(-5px)
     }
     100% {
-        transform: translateX(5px)
+        transform: translateX(0)
     }
 }
-.font-footer {
-    animation: wriggle 170ms;
-    animation-iteration-count: infinite;
-}
-
-/* page secondaire */
-
-/* Titre menu */
-
-h1 {
-    text-align: center;
-    font-size: 45px;
-    font-family: Arial;
-    margin-top: 90px;
-    color: #353535;/* == */
-}
-
-
-/* responsive */
-
+/*------------------------------------------*/
+/* ==            MEDIAS QUERIS             */
+/*----------------------------------------*/
 @media screen and (max-width: 470px) {
     .menu:hover {
         transform: perspective(0) translateZ(0);
