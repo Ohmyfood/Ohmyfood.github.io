@@ -80,7 +80,7 @@ h3 {
 /* animation titre */
 
 h3 p {
-    margin-top: -14px;
+    margin-top: -20px;
 }
 .entre p {
     margin-left: -8.3%;
@@ -97,7 +97,7 @@ h3 p {
     margin-left: -20%;
     transition: transform 300ms;
     transform: scaleX(0);
-    transform-origin: 49.879%;
+    transform-origin: 49.88%;
 }
 
 .plat-principale:hover p{

@@ -84,14 +84,14 @@ h3 {
 /* animation titre */
 
 h3 p {
-    margin-top: -14px;
+    margin-top: -20px;
 }
 .entre p {
     margin-left: -179px;
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
-    transform-origin: 49.867%;
+    transform-origin: 49.875%;
 }
 
 .entre:hover p{
@@ -103,7 +103,7 @@ h3 p {
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
-    transform-origin: 49.864%;
+    transform-origin: 49.875%;
 }
 
 .plat-principale:hover p{
@@ -115,7 +115,7 @@ h3 p {
     bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
-    transform-origin: 49.88%;
+    transform-origin: 49.875%;
 }
 
 .dessert:hover p{

@@ -1,3 +1,28 @@
+/* -----------------------------------------*/
+/* ==            SUMMARY                   */
+/*----------------------------------------*/
+
+
+
+
+
+
+
+/* -----------------------------------------*/
+/* ==            COLOR CODES               */
+/*----------------------------------------*/
+/*
+Light green(header, footer):         #579c87
+
+*/
+
+
+
+
+
+
+
+
 /* police d'écriture */
 
 @font-face {
@@ -79,7 +104,7 @@ header {
     font-size: 1em;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 17px #e0e0e0;
+    box-shadow: 0px 0px 17px #e0e0e0; /* == */
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;    
@@ -100,10 +125,6 @@ header {
 
 .menu p:nth-child(2) {
     font-size: 3em;
-}
-
-.menu:visited {
-    color: black;
 }
 
 /* --- */
@@ -299,6 +320,7 @@ h1 {
     font-size: 45px;
     font-family: Arial;
     margin-top: 90px;
+    color: #353535;
 }
 
 
@@ -315,7 +337,6 @@ h1 {
     h1 {
         width: 400px;
         min-width: 100%;
-        color: #353535;
         font-size: 40px;
         margin-top: 40px;
     }

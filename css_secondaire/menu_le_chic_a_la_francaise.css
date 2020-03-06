@@ -79,9 +79,6 @@ h3 p {
 }
 .entre p {
     margin-left: -200.09px;
-    right: 0;
-    left: 0;
-    bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
     transform-origin: 49.82%;
@@ -93,9 +90,6 @@ h3 p {
 
 .plat-principale p {
     margin-left: -22.5%;
-    right: 0;
-    left: 0;
-    bottom: -24px;
     transition: transform 300ms;
     transform: scaleX(0);
     transform-origin: 49.809%;

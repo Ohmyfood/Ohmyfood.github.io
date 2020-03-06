@@ -60,8 +60,11 @@ h3 {
 
 /* animation titre */
 
+h3 p {
+    margin-top: -30px;
+}
+
 .entre p {
-    margin-top: -25px;
     margin-left: -12%;
     transition: transform 300ms;
     transform: scaleX(0);
@@ -73,7 +76,6 @@ h3 {
 }
 
 .plat-principale p {
-    margin-top: -25px;
     margin-left: -22.2%;
     transition: transform 300ms;
     transform: scaleX(0);
@@ -85,7 +87,6 @@ h3 {
 }
 
 .dessert p {
-    margin-top: -25px;
     margin-left: -28.4%;
     transition: transform 300ms;
     transform: scaleX(0);
