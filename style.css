@@ -12,7 +12,19 @@
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
 /*
-Light green(header, footer):         #579c87
+Green(background header footer prochainement-font):                 #579c87
+Shadow grey(shadow menu):                                           #e0e0e0
+Beige (background la_note_enchantee):                               #fcdfdb
+Dark red (font-color la_note_enchantee):                            #3d1319
+Red/Orange gradient (background icon):                              #ef4760 --> #f6926a
+Light pink(background le_chic_a_la_francaise):                      #fff5fe
+Orange/Purple gradient (font-color le_chic_a_la_francaise):         #e38913 --> #8f5bfe
+Dark orange(font-color le_chic_a_la_francaise):                     #c77312
+Light grey (background le_delice_des_papilles):                     #f9f9f9
+Dark blue/Light blue gradient (font-color le_delice_des_papilles):  #0020d8 --> #0889fb
+Blue (font-color le_delice_des_papilles):                           #0886fb
+Dark green/Light green (font-color la_palette_du_gout):             #3d923a --> #bfff7f
+Green (font-color la_palette_du_gout):                              #72bf56
 
 */
 
@@ -104,7 +116,7 @@ header {
     font-size: 1em;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 17px #e0e0e0; /* == */
+    box-shadow: 0px 0px 17px #e0e0e0; 
     justify-content: center;
     flex-direction: column;
     transition: all 250ms ease-in-out;    
@@ -247,8 +259,8 @@ i {
 
 .prochainement-font {
     display: inline;
-    background-color: #579c87;
-    color: #fdcb46;
+    background-color: #579c87;/* == */
+    color: #fdcb46;/* == */
     font-size: 40px;
     font-family: Arial;
     padding: 8px 3% 12px 3%;
@@ -280,7 +292,7 @@ i {
 }
 /* footer */
 footer {
-    background-color: #579c87;
+    background-color: #579c87;/* == */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -289,7 +301,7 @@ footer {
     padding: 13px 0 15px 0;
 }
 .font-footer {
-    color: #fdcb46;
+    color: #fdcb46;/* == */
     font-family: Arial;
     font-size: 30px;
     text-decoration: none;
@@ -306,7 +318,7 @@ footer {
         transform: translateX(5px)
     }
 }
-.font-footer:hover {
+.font-footer {
     animation: wriggle 170ms;
     animation-iteration-count: infinite;
 }
@@ -320,7 +332,7 @@ h1 {
     font-size: 45px;
     font-family: Arial;
     margin-top: 90px;
-    color: #353535;
+    color: #353535;/* == */
 }
 
 
