@@ -1,13 +1,14 @@
 /*------------------------------------------*/
 /* ==            SUMMARY                   */
 /*----------------------------------------*/
-
-
-
-
-
-
-
+/* L12          COLOR CODES */
+/* L33          DEFINITIONS DES POLICES */
+/* L66          ELEMENTS PRINCIPAUX */
+/* L88          HEADER */
+/* L102         SECTION */
+/* L224         SECTION */
+/* L269         FOOTER */
+/* L310         MEDIAS QUERIS */
 /*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
@@ -55,7 +56,7 @@ Dark grey (color-font h1):                                          #353535
 @font-face {
     font-family: "croissant one";
     src: url(font/croissant-one/croissant-one.ttf) format("ttf"),
-         url(font/croissant-one/croissant-one.woff) format("woff")
+         url(font/croissant-one/croissant-one.woff) format("woff");
 }
 /*------------------------------------------*/
 /* ==            ELEMENTS PRINCIPAUX       */
@@ -97,14 +98,12 @@ header {
 /*------------------------------------------*/
 /* ==            SECTION                   */
 /*----------------------------------------*/
-
 .section-menus {
     display: flex;
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
 }
 .section-menus div {
     display: flex;
@@ -122,12 +121,12 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    transition: all 250ms ease-in-out;    
+    transition: all 250ms ease-in-out;
 }
 /* animation menu */
-.menu:hover {
-    transform: perspective(150px) translateZ(45px);
-    opacity: 0.8;
+.menu:hover{
+    transform: perspective(150px) translateZ(-15px);
+    opacity: 0.7;
 }
 .menu p {
     margin: 20px;
@@ -153,8 +152,7 @@ header {
 .menu_la_note_enchantee p:nth-child(2) {
     font-family: "Segoe Print";
     font-weight: 600;
-    margin: 0;
-    margin-top: -10px;
+    margin: -10px 0 0 0;
     order: 3;
 }
 .menu_la_note_enchantee p:nth-child(3) {
@@ -222,8 +220,8 @@ header {
 .prochainement {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 110px;
+    margin: 30px auto 110px auto;
+    
     width: 400px;
     min-width: 100%;
 }
@@ -276,8 +274,7 @@ footer {
     font-family: Arial;
     font-size: 30px;
     text-decoration: none;
-    margin-right: 1%;
-    margin-left: 1%;
+    margin: auto 1% auto 1%;
 }
 /* animation footer*/
 .font-footer {
@@ -286,29 +283,25 @@ footer {
 }
 @keyframes wriggle {
     30% {
-        transform: translateX(0)
+        transform: translateX(0);
     }
     40% {
-        transform: translateX(-5px)
+        transform: translateX(-5px);
     }
     60% {
-        transform: translateX(5px)
+        transform: translateX(5px);
     }
     80% {
-        transform: translateX(-5px)
+        transform: translateX(-5px);
     }
     100% {
-        transform: translateX(0)
+        transform: translateX(0);
     }
 }
 /*------------------------------------------*/
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 470px) {
-    .menu:hover {
-        transform: perspective(0) translateZ(0);
-        opacity: 1;
-    }
     .font-footer {
         font-size: 1.57em;
     }
@@ -320,7 +313,7 @@ footer {
     }
 }
 @media screen and (max-width: 768px){
-    .menu:hover {
+    .menu:hover p{
         transform: perspective(0) translateZ(0);
         opacity: 1;
     }
