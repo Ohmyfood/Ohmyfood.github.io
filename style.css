@@ -7,8 +7,8 @@
 /* L87          HEADER */
 /* L100         SECTION */
 /* L218         SECTION */
-/* L261         FOOTER */
-/* L302         MEDIAS QUERIS */
+/* L274         FOOTER */
+/* L334         MEDIAS QUERIS */
 /*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
@@ -237,8 +237,15 @@ header {
 /* animation prochainement */
 .prochainement span {
     visibility: hidden;
-    animation: dot steps(1);
-    animation-iteration-count: infinite;
+    -webkit-animation: dot steps(1);
+            animation: dot steps(1);
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes dot {
+    50% {
+        visibility: visible;
+    }
 }
 @keyframes dot {
     50% {
@@ -246,16 +253,22 @@ header {
     }
 }
 .prochainement-font .dot-anime-0 {
-    animation-delay: 400ms;
-    animation-duration: 1.6s;
+    -webkit-animation-delay: 400ms;
+            animation-delay: 400ms;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
 }
 .prochainement-font .dot-anime-1 {
-    animation-delay: 500ms;
-    animation-duration: 1.6s;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
 }
 .prochainement-font .dot-anime-2 {
-    animation-delay: 600ms;
-    animation-duration: 1.6s;
+    -webkit-animation-delay: 600ms;
+            animation-delay: 600ms;
+    -webkit-animation-duration: 1.6s;
+            animation-duration: 1.6s;
 }
 /*------------------------------------------*/
 /* ==            FOOTER                    */
@@ -278,8 +291,27 @@ footer {
 }
 /* animation footer*/
 .font-footer {
-    animation: wriggle 870ms;
-    animation-iteration-count: infinite;
+    -webkit-animation: wriggle 870ms;
+            animation: wriggle 870ms;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes wriggle {
+    30% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-5px);
+    }
+    60% {
+        transform: translateX(5px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 @keyframes wriggle {
     30% {

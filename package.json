@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./style.css ./css_secondaire/menu_la_note_enchantee.css ./css_secondaire/menu_la_palette_du_gout.css ./css_secondaire/menu_le_chic_a_la_francaise.css ./css_secondaire/menu_le_delice_des_papilles.css --use autoprefixer -d ./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ohmyfood/Ohmyfood.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ohmyfood/Ohmyfood.github.io/issues"
+  },
+  "homepage": "https://github.com/Ohmyfood/Ohmyfood.github.io#readme"
+}
