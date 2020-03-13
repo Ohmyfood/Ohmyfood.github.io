@@ -1,14 +1,14 @@
 /*------------------------------------------*/
 /* ==            SUMMARY                   */
 /*----------------------------------------*/
-/* L12          COLOR CODES */
-/* L33          DEFINITIONS DES POLICES */
-/* L66          ELEMENTS PRINCIPAUX */
-/* L88          HEADER */
-/* L102         SECTION */
-/* L224         SECTION */
-/* L269         FOOTER */
-/* L310         MEDIAS QUERIS */
+/* L13          COLOR CODES */
+/* L34          DEFINITIONS DES POLICES */
+/* L63          ELEMENTS PRINCIPAUX */
+/* L87          HEADER */
+/* L100         SECTION */
+/* L218         SECTION */
+/* L261         FOOTER */
+/* L302         MEDIAS QUERIS */
 /*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
@@ -24,6 +24,7 @@ Dark orange (font-color le_chic_a_la_francaise):                    #c77312
 Light grey (background le_delice_des_papilles):                     #f9f9f9
 Dark blue/Light blue gradient (font-color le_delice_des_papilles):  #0020d8 --> #0889fb
 Blue (font-color le_delice_des_papilles):                           #0886fb
+White (background la_palette_du_gout):                              #fdfffd
 Dark green/Light green (font-color la_palette_du_gout):             #3d923a --> #bfff7f
 Green (font-color la_palette_du_gout):                              #72bf56
 Yellow (font-color prochainement-font font-footer):                 #fdcb46
@@ -197,7 +198,6 @@ header {
     color: #0886fb;
 }
 /* la palette du goût */
-
 .menu_la_palette_du_gout {
     background-color: #fdfffd;
 }
@@ -313,7 +313,7 @@ footer {
     }
 }
 @media screen and (max-width: 768px){
-    .menu:hover p{
+    .menu:hover{
         transform: perspective(0) translateZ(0);
         opacity: 1;
     }

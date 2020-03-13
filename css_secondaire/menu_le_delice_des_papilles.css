@@ -1,55 +1,60 @@
-/* général */
-
+/*------------------------------------------*/
+/* ==            SUMMARY                   */
+/*----------------------------------------*/
+/* L8           COLOR CODES */
+/* L16          SECTION */
+/* L124         MEDIAS QUERIS */
+/*------------------------------------------*/
+/* ==            COLOR CODES               */
+/*----------------------------------------*/
+/*
+White (background div):                                             #edefef
+Dark blue/Light blue gradient (font-color h2):                      #0020d8 --> #0889fb
+Shadow grey (shadow div):                                           #e0e0e0
+*/
+/*------------------------------------------*/
+/* ==            SECTION                   */
+/*----------------------------------------*/
 section {
     display: flex;
     justify-content: center;
 }
-
 div {
     background-color: #edefef;
-    padding: 30px;
     box-shadow: 0px 0px 17px #e0e0e0;
     margin-bottom: 120px;
-    padding-right: 45px;
-    padding-left: 45px;
-    padding-bottom: 160px;
-    font-family: "Segoe Print"
+    padding: 30px 45px 160px 45px;
+    font-family: "Segoe Print";
 }
-
 div h3:nth-child(2) {
     margin-top: -10px;
 }
-
 h2 {
     text-align: center;
     font-size: 3.8em;
     font-family: "dancing script";
     font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin: 30px auto 100px auto;
     display: block;
     background: linear-gradient(167deg, #0020d8, #0889fb 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 h3 {
     font-size: 16.5px;
     font-weight: 500;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin: 50px auto 0 auto;
     overflow: hidden;
     position: relative;
 }
-
 .line-left {
     width: 180px;
     position: absolute;
     left: 0;
     top: -2px;
     transform-origin: left;
-    transform: scaleX(1)
+    transform: scaleX(1);
 }
 .line-principale-left {
     top: -5px;
@@ -60,29 +65,12 @@ h3 {
     right: 0;
     top: -1px;
     transform-origin: right;
-    transform: scaleX(1)
+    transform: scaleX(1);
 }
-
 .line-principale-right {
     top: -5px;
 }
-
-/* color-font */
-
-.color-entre {
-    color: #c67512
-}
-
-.color-principale {
-    color: #a56799;
-}
-
-.color-dessert {
-    color: #6e4ccc;
-}
-
 /* animation titre */
-
 h3 p {
     margin-top: -20px;
 }
@@ -93,11 +81,9 @@ h3 p {
     transform: scaleX(0);
     transform-origin: 49.875%;
 }
-
 .entre:hover p{
     transform: scaleX(96);
 }
-
 .plat-principale p {
     margin-left: -161.5px;
     bottom: -24px;
@@ -105,11 +91,9 @@ h3 p {
     transform: scaleX(0);
     transform-origin: 49.875%;
 }
-
 .plat-principale:hover p{
     transform: scaleX(87);
 }
-
 .dessert p {
     margin-left: -23.2%;
     bottom: -24px;
@@ -117,12 +101,9 @@ h3 p {
     transform: scaleX(0);
     transform-origin: 49.875%;
 }
-
 .dessert:hover p{
     transform: scaleX(84);
 }
-
-/* --- */
 ul {
     margin-top: 0;
 }
@@ -132,18 +113,17 @@ li {
     justify-content: space-between;
     font-size: 14px;
 }
-
 li p:nth-child(1) {
     margin-left: 30px
 }
 li p:nth-child(2) {
-    margin-left: 15px;
+    margin: auto 70px auto 15px;
     font-weight: 600;
-    margin-right: 70px;
 }
-
+/*------------------------------------------*/
+/* ==            MEDIAS QUERIS             */
+/*----------------------------------------*/
 @media screen and (max-width: 700px) {
-    
     section {
         width: 400px;
         min-width: 100%;
@@ -157,27 +137,23 @@ li p:nth-child(2) {
         margin-top: 10px;
         margin-bottom: 50px;
     }
-    
     h3 {
         font-size: 1.19em;
         margin-left: 0;
         margin-right: 0;
     }
-    
     h3 p {
         visibility: hidden;
     }
     ul{
         margin-top: -35px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
-    
     .line-left {
         left: 20px;
         top: 1px;
-        transform: scaleX(0.34)
+        transform: scaleX(0.34);
     }
-    
     .line-principale-left {
         top: -2px;
     }
@@ -187,12 +163,11 @@ li p:nth-child(2) {
     .line-right {
         right: 20px;
         top: 0;
-        transform: scaleX(0.34)
+        transform: scaleX(0.34);
     }
-    
     li {
         font-size: 1em;
-        margin-top: -10px
+        margin-top: -10px;
     }
     li p:nth-child(2) {
         margin-right: 41px;
