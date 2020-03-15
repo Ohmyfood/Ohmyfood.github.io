@@ -346,7 +346,6 @@ footer {
 }
 @media screen and (max-width: 768px){
     .menu:hover{
-        transform: perspective(0) translateZ(0);
-        opacity: 1;
+        
     }
 }
