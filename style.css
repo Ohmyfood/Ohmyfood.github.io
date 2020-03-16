@@ -291,12 +291,12 @@ footer {
 }
 /* animation footer*/
 .font-footer {
-    -webkit-animation: wriggle 870ms;
-            animation: wriggle 870ms;
+    -webkit-animation: wiggle 870ms;
+            animation: wiggle 870ms;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
-@-webkit-keyframes wriggle {
+@-webkit-keyframes wiggle {
     30% {
         transform: translateX(0);
     }
@@ -313,7 +313,7 @@ footer {
         transform: translateX(0);
     }
 }
-@keyframes wriggle {
+@keyframes wiggle {
     30% {
         transform: translateX(0);
     }
