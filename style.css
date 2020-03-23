@@ -5,10 +5,10 @@
 /* L34          DEFINITIONS DES POLICES */
 /* L63          ELEMENTS PRINCIPAUX */
 /* L87          HEADER */
-/* L100         SECTION */
-/* L218         SECTION */
-/* L274         FOOTER */
-/* L334         MEDIAS QUERIS */
+/* L103         SECTION */
+/* L221         SECTION */
+/* L277         FOOTER */
+/* L337         MEDIAS QUERIS */
 /*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
@@ -91,10 +91,14 @@ header {
     text-align: center;
     width: 400px;
     min-width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -20px
 }
 .img-logo {
     width: 280px;
-    padding: 2%;
 }
 /*------------------------------------------*/
 /* ==            SECTION                   */
@@ -104,7 +108,6 @@ header {
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    margin: 20px auto 20px auto;
 }
 .section-menus div {
     display: flex;
@@ -116,7 +119,7 @@ header {
     width: 360px;
     height: 509px;
     font-size: 1em;
-    margin: 20px;
+    margin: 30px;
     text-decoration: none;
     box-shadow: 0px 0px 17px #e0e0e0;
     display: flex;
@@ -220,8 +223,7 @@ header {
 .prochainement {
     display: flex;
     justify-content: center;
-    margin: 30px auto 110px auto;
-    
+    margin: -20px auto 90px auto;
     width: 400px;
     min-width: 100%;
 }
@@ -236,18 +238,18 @@ header {
 }
 /* animation prochainement */
 .prochainement span {
-    visibility: hidden;
+    visibility: hiden;
     -webkit-animation: dot steps(1);
             animation: dot steps(1);
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
-@-webkit-keyframes dot {
+@-webkit-keyframes dt {
     50% {
         visibility: visible;
     }
 }
-@keyframes dot {
+@keyframes dt {
     50% {
         visibility: visible;
     }
@@ -280,7 +282,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 13px 0 15px 0;
+    padding: 25px 0 25px 0;
 }
 .font-footer {
     color: #fdcb46;
@@ -291,8 +293,8 @@ footer {
 }
 /* animation footer*/
 .font-footer {
-    -webkit-animation: wiggle 870ms;
-            animation: wiggle 870ms;
+    -webkit-animation: wigle 870ms;
+            animation: wigle 870ms;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
