@@ -238,18 +238,18 @@ header {
 }
 /* animation prochainement */
 .prochainement span {
-    visibility: hiden;
+    visibility: hidden;
     -webkit-animation: dot steps(1);
             animation: dot steps(1);
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
-@-webkit-keyframes dt {
+@-webkit-keyframes dot {
     50% {
         visibility: visible;
     }
 }
-@keyframes dt {
+@keyframes dot {
     50% {
         visibility: visible;
     }
@@ -293,8 +293,8 @@ footer {
 }
 /* animation footer*/
 .font-footer {
-    -webkit-animation: wigle 870ms;
-            animation: wigle 870ms;
+    -webkit-animation: wiggle 870ms;
+            animation: wiggle 870ms;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
