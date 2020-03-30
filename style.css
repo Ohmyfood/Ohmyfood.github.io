@@ -118,7 +118,7 @@ header {
 .menu {
     width: 360px;
     height: 509px;
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 30px;
     text-decoration: none;
     box-shadow: 0px 0px 17px #e0e0e0;
@@ -244,12 +244,12 @@ header {
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
-@-webkit-keyframes dot {
+@-webkit-keyframes do {
     50% {
         visibility: visible;
     }
 }
-@keyframes dot {
+@keyframes do {
     50% {
         visibility: visible;
     }
@@ -298,7 +298,7 @@ footer {
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 }
-@-webkit-keyframes wiggle {
+@-webkit-keyframes wiggl {
     30% {
         transform: translateX(0);
     }
@@ -315,7 +315,7 @@ footer {
         transform: translateX(0);
     }
 }
-@keyframes wiggle {
+@keyframes wiggl {
     30% {
         transform: translateX(0);
     }
