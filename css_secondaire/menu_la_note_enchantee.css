@@ -31,13 +31,15 @@ h3 {
     margin: 50px auto -35px auto;
     font-size: 25px;
 }
+.img {
+    width: 100%;
+}
 .line-left {
-    width: 180px;
+    width: 25%;
     position: absolute;
     left: 39px;
-    top: 9%;
-    transform-origin: left;
-    transform: scaleX(1.25)
+    top: -25px;
+
 }
 .line-right {
     width: 180px;
@@ -105,8 +107,6 @@ p i {
 /*----------------------------------------*/
 @media screen and (max-width: 750px) {
     section {
-        width: 100%;
-        min-width: 400px;
     }
     h2 {
         font-size: 2.5em;    
