@@ -100,22 +100,18 @@ li p:nth-child(2) {
         margin-top: -35px;
         margin-bottom: 20px;
     }
-    .li
-    .line-left {
+    .line {
         height: 40%;
         width: 22%;
+    }
+    .line-principale {
+        top: -2px;
+    }
+    .line-left {
         left: 20px;
         top: 1px;
     }
-    .line-principale-left {
-        top: -2px;
-    }
-    .line-principale-right {
-        top: -2px;
-    }
     .line-right {
-        height: 40%;
-        width: 22%;
         right: 20px;
         top: 5px;
     }
