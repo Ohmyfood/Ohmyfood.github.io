@@ -37,30 +37,7 @@ li {
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 1000px) {
-    section {
-        width: 100%;
-        min-width: 500px;
+
+    li p:nth-child(2) {
+        margin-right: 41px;
     }
-    div {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    h2 {
-        font-size: 2.5em;
-        margin-bottom: 50px;
-        margin-top: 10px;
-    }
-    h3 {
-        font-size: 1.19em;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    h3 p {
-        visibility: hidden;
-    }
-    li {
-        font-size: 1em;
-        margin-top: -10px;
-    }
-}

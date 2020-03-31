@@ -104,9 +104,6 @@ p i {
         right: 20px;
         top: 9px;
     }
-    li p:nth-child(2) {
-        margin-right: 25px;
-    }
     .pied_menu {
         font-size: 2em;  
     }
