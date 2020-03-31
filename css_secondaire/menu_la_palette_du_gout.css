@@ -78,7 +78,6 @@ li p:nth-child(2) {
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 1000px) {
-    
     ul{
         margin-top: -35px;
     }
@@ -92,5 +91,8 @@ li p:nth-child(2) {
     }
     .line-right {
         right: 20px;
+    }
+    li p:nth-child(2) {
+        margin-right: -45px;
     }
 }
