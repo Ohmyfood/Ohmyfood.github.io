@@ -33,24 +33,19 @@ h3 {
     font-weight: 500;
     margin: 50px auto 0 auto;
 }
+.line {
+    transform: scaleX(1);
+}
 .line-left {
-    width: 180px;
-    position: absolute;
     left: 0;
     top: -2px;
-    transform-origin: left;
-    transform: scaleX(1);
 }
 .line-principale-left {
     top: -5px;
 }
 .line-right {
-    width: 180px;
-    position: absolute;
     right: 0;
     top: -1px;
-    transform-origin: right;
-    transform: scaleX(1);
 }
 .line-principale-right {
     top: -5px;
@@ -59,32 +54,23 @@ h3 {
 h3 p {
     margin-top: -20px;
 }
+.anim p {
+    transform-origin: 49.875%;
+}
 .entre p {
     margin-left: -179px;
-    bottom: -24px;
-    transition: transform 300ms;
-    transform: scaleX(0);
-    transform-origin: 49.875%;
 }
 .entre:hover p{
     transform: scaleX(96);
 }
 .plat-principale p {
     margin-left: -161.5px;
-    bottom: -24px;
-    transition: transform 300ms;
-    transform: scaleX(0);
-    transform-origin: 49.875%;
 }
 .plat-principale:hover p{
     transform: scaleX(87);
 }
 .dessert p {
     margin-left: -23.2%;
-    bottom: -24px;
-    transition: transform 300ms;
-    transform: scaleX(0);
-    transform-origin: 49.875%;
 }
 .dessert:hover p{
     transform: scaleX(84);
@@ -93,9 +79,6 @@ ul {
     margin-top: 0;
 }
 li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
     font-size: 14px;
 }
 li p:nth-child(1) {
@@ -109,31 +92,15 @@ li p:nth-child(2) {
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 1000px) {
-    section {
-        width: 100%;
-        min-width: 500px;
-    }
     div {
         padding-left: 0;
         padding-right: 0;
-    }
-    h2 {
-        font-size: 2.5em;
-        margin-top: 10px;
-        margin-bottom: 50px;
-    }
-    h3 {
-        font-size: 1.19em;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    h3 p {
-        visibility: hidden;
     }
     ul{
         margin-top: -35px;
         margin-bottom: 20px;
     }
+    .li
     .line-left {
         height: 40%;
         width: 22%;

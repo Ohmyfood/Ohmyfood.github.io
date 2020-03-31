@@ -31,21 +31,15 @@ h3 {
     margin: 50px auto -35px auto;
     font-size: 25px;
 }
-.line-left {
-    width: 180px;
-    position: absolute;
-    left: 39px;
+.line {
     top: 9%;
-    transform-origin: left;
     transform: scaleX(1.25)
 }
+.line-left {
+   left: 39px;
+}
 .line-right {
-    width: 180px;
-    position: absolute;
     right: 40px;
-    top: 9%;
-    transform-origin: right;
-    transform: scaleX(1.25)
 }
 /* animation titre */
 h3 p {
@@ -53,8 +47,6 @@ h3 p {
 }
 .entre p {
     margin-left: -12%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.768%;
 }
 .entre:hover p{
@@ -62,8 +54,6 @@ h3 p {
 }
 .plat-principale p {
     margin-left: -22.2%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.789%;
 }
 .plat-principale:hover p{
@@ -71,8 +61,6 @@ h3 p {
 }
 .dessert p {
     margin-left: -28.4%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.8%;
 }
 .dessert:hover p{
@@ -82,9 +70,6 @@ ul {
     margin-top: 0px;
 }
 li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
     font-size: 18px;
 }
 li p:nth-child(2) {
@@ -104,37 +89,20 @@ p i {
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 1000px) {
-    section {
-        width: 100%;
-        min-width: 500px;
-    }
-    h2 {
-        font-size: 2.5em;    
-    }
-    h3 {
-        font-size: 1.19em;
-    }
-    h3 p {
-        visibility: hidden;
-    }
     ul{
         margin: 10px auto auto -10px;
     }
+    .line {
+        height: 30%;
+        width: 18%;
+    }
     .line-left {
-        height: 40%;
-        width: 20%;
         left: 30px;
         top: 6px;
     }
     .line-right {
-        height: 40%;
-        width: 20%;
         right: 20px;
         top: 9px;
-    }
-    li {
-        font-size: 1em;
-        margin-top: -10px;
     }
     li p:nth-child(2) {
         margin-right: 25px;

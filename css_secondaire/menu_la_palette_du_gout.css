@@ -33,21 +33,15 @@ h3 {
     font-weight: 500;
     margin: 50px -12% 18px -2%;
 }
-.line-left {
-    width: 180px;
-    position: absolute;
-    left: 0;
+.line {
     top: -2px;
-    transform-origin: left;
     transform: scaleX(1.4)
 }
+.line-left {
+    left: 0;
+}
 .line-right {
-    width: 180px;
-    position: absolute;
     right: 0;
-    top: -1px;
-    transform-origin: right;
-    transform: scaleX(1.45)
 }
 /* animation titre */
 h3 p {
@@ -55,8 +49,6 @@ h3 p {
 }
 .entre p {
     margin-left: -8.3%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.87%;
 }
 .entre:hover p{
@@ -64,8 +56,6 @@ h3 p {
 }
 .plat-principale p {
     margin-left: -20%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.88%;
 }
 .plat-principale:hover p{
@@ -73,17 +63,12 @@ h3 p {
 }
 .dessert p {
     margin-left: -23%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.884%;
 }
 .dessert:hover p{
     transform: scaleX(87);
 }
 li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
     font-size: 14px;
 }
 li p:nth-child(2) {
@@ -93,48 +78,19 @@ li p:nth-child(2) {
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 1000px) {
-    section {
-        width: 100%;
-        min-width: 500px;
-    }
-    div {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    h2 {
-        font-size: 2.5em;
-        margin-top: 10px;
-        margin-bottom: 50px;
-    }
-    h3 {
-        font-size: 1.19em;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    h3 p {
-        visibility: hidden;
-    }
+    
     ul{
         margin-top: -35px;
     }
-    .line-left {
+    .line {
         height: 40%;
         width: 16%;
-        left: 20px;
         top: 5%;
+    }
+    .line-left {
+        left: 20px;
     }
     .line-right {
-        
-        height: 40%;
-        width: 16%;
         right: 20px;
-        top: 5%;
-    }
-    li {
-        font-size: 1em;
-        margin-top: -10px
-    }
-    li p:nth-child(2) {
-        margin-right: 41px
     }
 }

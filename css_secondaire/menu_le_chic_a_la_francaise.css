@@ -32,21 +32,15 @@ h2 {
 h3 {
     margin: 70px auto 0 auto;
 }
-.line-left {
-    width: 180px;
-    position: absolute;
-    left: 0;
-    top: -4px;
-    transform-origin: left;
+.line {
     transform: scaleX(1.21);
+    top: -4px;
+}
+.line-left {
+    left: 0;
 }
 .line-right {
-    width: 180px;
-    position: absolute;
     right: 0;
-    top: -4px;
-    transform-origin: right;
-    transform: scaleX(1.21);
 }
 /* color-font */
 .color-entre {
@@ -64,8 +58,6 @@ h3 p {
 }
 .entre p {
     margin-left: -200.09px;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.82%;
 }
 .entre:hover p{
@@ -73,8 +65,6 @@ h3 p {
 }
 .plat-principale p {
     margin-left: -22.5%;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.809%;
 }
 .plat-principale:hover p{
@@ -82,18 +72,12 @@ h3 p {
 }
 .dessert p {
     margin-left: -27%;
-    bottom: -24px;
-    transition: transform 300ms;
-    transform: scaleX(0);
     transform-origin: 49.809%;
 }
 .dessert:hover p{
     transform: scaleX(58.5);
 }
 li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
     font-size: 17px;
 }
 li p:nth-child(1) {
@@ -106,43 +90,22 @@ li p:nth-child(2) {
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
 @media screen and (max-width: 1000px) {   
-    section {
-        width: 100%;
-        min-width: 500px;
-    }
-    div {
-        padding-left: 10px;
-        padding-right: 0;
-    }
-    h2 {
-        font-size: 2.5em;
-        margin-bottom: 50px;
-    }
     h3 {
-        font-size: 1.19em;
         margin: 70px 0 30px 0;
-    }
-    h3 p {
-        visibility: hidden;
     }
     ul{
         margin-top: -35px;
     }
-    .line-left {
+    .line {
         height: 80%;
         width: 23%;
-        left: 0;
         top: -10px;
+    }
+    .line-left {
+        left: 0;
     }
     .line-right {
-        height: 80%;
-        width: 23%;
         right: 0;
-        top: -10px;
-    }
-    li {
-        font-size: 1em;
-        margin-top: -10px;
     }
     li p:nth-child(1) {
         margin-left: 0;
