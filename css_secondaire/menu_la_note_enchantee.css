@@ -103,10 +103,10 @@ p i {
 /*------------------------------------------*/
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
     section {
         width: 100%;
-        min-width: 400px;
+        min-width: 500px;
     }
     h2 {
         font-size: 2.5em;    

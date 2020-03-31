@@ -108,10 +108,10 @@ li p:nth-child(2) {
 /*------------------------------------------*/
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     section {
-        width: 400px;
-        min-width: 100%;
+        width: 100%;
+        min-width: 500px;
     }
     div {
         padding-left: 0;
@@ -135,9 +135,10 @@ li p:nth-child(2) {
         margin-bottom: 20px;
     }
     .line-left {
+        height: 40%;
+        width: 22%;
         left: 20px;
         top: 1px;
-        transform: scaleX(0.34);
     }
     .line-principale-left {
         top: -2px;
@@ -146,9 +147,10 @@ li p:nth-child(2) {
         top: -2px;
     }
     .line-right {
+        height: 40%;
+        width: 22%;
         right: 20px;
-        top: 0;
-        transform: scaleX(0.34);
+        top: 5px;
     }
     li {
         font-size: 1em;

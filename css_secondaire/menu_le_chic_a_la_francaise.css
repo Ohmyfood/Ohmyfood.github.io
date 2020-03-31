@@ -105,10 +105,10 @@ li p:nth-child(2) {
 /*------------------------------------------*/
 /* ==            MEDIAS QUERIS             */
 /*----------------------------------------*/
-@media screen and (max-width: 700px) {   
+@media screen and (max-width: 1000px) {   
     section {
-        width: 400px;
-        min-width: 100%;
+        width: 100%;
+        min-width: 500px;
     }
     div {
         padding-left: 10px;
@@ -129,12 +129,16 @@ li p:nth-child(2) {
         margin-top: -35px;
     }
     .line-left {
+        height: 80%;
+        width: 23%;
         left: 0;
-        transform: scaleX(0.4);
+        top: -10px;
     }
     .line-right {
+        height: 80%;
+        width: 23%;
         right: 0;
-        transform: scaleX(0.4);
+        top: -10px;
     }
     li {
         font-size: 1em;
