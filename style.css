@@ -4,11 +4,11 @@
 /* L13          COLOR CODES */
 /* L34          DEFINITIONS DES POLICES */
 /* L63          ELEMENTS PRINCIPAUX */
-/* L87          HEADER */
-/* L103         SECTION */
-/* L221         SECTION */
-/* L277         FOOTER */
-/* L337         MEDIAS QUERIS */
+/* L88          HEADER */
+/* L104         SECTION */
+/* L216         SECTION */
+/* L271         FOOTER */
+/* L331         MEDIAS QUERIS */
 /*------------------------------------------*/
 /* ==            COLOR CODES               */
 /*----------------------------------------*/
@@ -62,7 +62,6 @@ Dark grey (color-font h1):                                          #353535
 /*------------------------------------------*/
 /* ==            ELEMENTS PRINCIPAUX       */
 /*----------------------------------------*/
-
 body {
     margin: auto;
     min-width: 500px;
@@ -137,10 +136,13 @@ header {
     margin: 20px;
 }
 .menu p:nth-child(1) {
-    font-size: 2em;
+    font-size: 2.5em;
+    margin: 0;
+    display: block;
 }
 .menu p:nth-child(2) {
     font-size: 3em;
+    order: 3;
 }
 /* la note enchantése */
 .menu_la_note_enchantee {
@@ -151,14 +153,13 @@ header {
 }
 .menu_la_note_enchantee p:nth-child(1) {
     font-family: "devonshire";
-    font-size: 2.5em;
+    margin: 20px;
     order: 2;
 }
 .menu_la_note_enchantee p:nth-child(2) {
     font-family: "Segoe Print";
     font-weight: 600;
     margin: -30px 0 0 0;
-    order: 3;
 }
 .menu_la_note_enchantee p:nth-child(3) {
     order: 1;
@@ -173,8 +174,7 @@ header {
 }
 .menu_le_chic_a_la_francaise p:nth-child(1) {
     font-family: "croissant one";
-    margin: 0;
-    display: block;
+    font-size: 2em;
     background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -190,9 +190,6 @@ header {
 }
 .menu_le_delice_des_papilles p:nth-child(1) {
     font-family: "dancing script";
-    margin: 0;
-    font-size: 2.5em;
-    display: block;
     background: linear-gradient(167deg, #0020d8, #0889fb 87%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -207,9 +204,6 @@ header {
 }
 .menu_la_palette_du_gout p:nth-child(1) {
     font-family: "kaushan script";
-    margin: 0;
-    font-size: 2.5em;
-    display: block;
     background: linear-gradient(150deg, #3d923a, #bfff7f 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -341,8 +335,8 @@ footer {
         font-size: 1.57em;
     }
     h1 {
-        width: 400px;
-        min-width: 100%;
+        width: 100%;
+        min-width: 500px;
         font-size: 40px;
         margin-top: 40px;
     }
