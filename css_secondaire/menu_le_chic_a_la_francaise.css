@@ -12,29 +12,17 @@ Orange/Purple gradient (font-color le_chic_a_la_francaise):         #e38913 --> 
 Dark orange (font-color entre):                                     #c67512
 Purple light (font-color principale):                               #a56799
 Dark purple (font-color dessert):                                   #6e4ccc
-Shadow grey (shadow div):                                           #e0e0e0
 */
 /*------------------------------------------*/
 /* ==            SECTION                   */
 /*----------------------------------------*/
-section {
-    display: flex;
-    justify-content: center;
-}
 div {
     background-color: #fff5fe;
     padding: 30px 20px 60px 20px;
-    box-shadow: 0px 0px 17px #e0e0e0;
-    margin-bottom: 120px;
-}
-div h3:nth-child(2) {
-    margin-top: -10px;
 }
 h2 {
-    text-align: center;
     font-size: 2em;
     font-family: "croissant one";
-    font-weight: 500;
     margin: 30px auto 50px auto;
     display: block;
     background: linear-gradient(167deg, #e38913 , #8f5bfe 87%);
@@ -42,10 +30,7 @@ h2 {
     -webkit-text-fill-color: transparent;
 }
 h3 {
-    text-align: center;
     margin: 70px auto 0 auto;
-    overflow: hidden;
-    position: relative;
 }
 .line-left {
     width: 180px;

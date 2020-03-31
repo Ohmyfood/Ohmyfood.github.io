@@ -10,40 +10,25 @@
 /*
 Beige (background div):                                            #fcdfdb
 Dark red (font-color div):                                         #3d1319
-Shadow grey (shadow div):                                          #e0e0e0
 */
 /*------------------------------------------*/
 /* ==            SECTION                   */
 /*----------------------------------------*/
-section {
-    display: flex;
-    justify-content: center;
-}
 div {
     background-color: #fcdfdb;
     padding: 30px 0 30px 0;
     font-family: "Segoe Print";
     color: #3d1319;
-    margin-bottom: 120px;
-    box-shadow: 0px 0px 17px #e0e0e0;
-}
-div h3:nth-child(2) {
-    margin-top: -10px;
 }
 h2 {
-    text-align: center;
     font-size: 2.9em;
     font-family: "devonshire";
-    font-weight: 500;
 }
 h2 i {
     font-size: 1.6em;
 }
 h3 {
-    text-align: center;
     margin: 50px auto -35px auto;
-    overflow: hidden;
-    position: relative;
     font-size: 25px;
 }
 .line-left {
@@ -120,8 +105,8 @@ p i {
 /*----------------------------------------*/
 @media screen and (max-width: 750px) {
     section {
-        width: 400px;
-        min-width: 100%;
+        width: 100%;
+        min-width: 400px;
     }
     h2 {
         font-size: 2.5em;    
@@ -134,16 +119,6 @@ p i {
     }
     ul{
         margin: 10px auto auto -10px;
-    }
-    .line-left {
-        left: 30px;
-        top: 5%;
-        transform: scaleX(0.4);
-    }
-    .line-right {
-        right: 20px;
-        top: 5%;
-        transform: scaleX(0.4);
     }
     li {
         font-size: 1em;
