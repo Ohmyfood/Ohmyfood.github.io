@@ -92,7 +92,4 @@ li p:nth-child(2) {
     .line-right {
         right: 20px;
     }
-    li p:nth-child(2) {
-        margin-right: 45px;
-    }
 }

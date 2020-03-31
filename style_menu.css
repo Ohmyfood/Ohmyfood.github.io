@@ -37,7 +37,3 @@ li {
     display: flex;
     justify-content: space-between;
 }
-
-    li p:nth-child(2) {
-        margin-right: 41px;
-    }

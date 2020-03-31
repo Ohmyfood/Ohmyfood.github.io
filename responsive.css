@@ -24,4 +24,7 @@
         font-size: 1em;
         margin-top: -10px;
     }
+    li p:nth-child(2) {
+        margin-right: 41px;
+    }
 }
